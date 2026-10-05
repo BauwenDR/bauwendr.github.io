@@ -1,0 +1,87 @@
+{
+  "projects": [
+    {
+      "name": "PiGuard",
+      "image": "PiGuard.png",
+      "description": "Smart doorbell using Image and facial recognition to recognise people at the front door and deliver notifications in the app.",
+      "technologies": ["Raspberry PI", "OpenCV", "c++", "React Native"],
+      "tags": ["KdG", "Embedded"],
+      "team": ["Jonas Van der Reysen", "Victor De Regter"],
+      "url": null
+    },
+    {
+      "name": "Pvp NES Snake",
+      "image": "NES-Snake.jpg",
+      "description": "A 4 player pvp game of snake, the player who can outlast the outhers wins.",
+      "techologies": ["6502 assembly", "NES"],
+      "tags": ["Howest", "Embedded"],
+      "team": ["Mattias Simonts", "Teun De Moor"],
+      "url": "https://github.com/BauwenDR/RetroProgramming"
+    },
+    {
+      "name": "Arduino wordl",
+      "image": "Aduino-World.png",
+      "description": "A simple game of Wordl (only containing 4 letters due to hardware limitations) playable on both the Arduino and a JavaFx app at the same time",
+      "technologies": ["Embedded C", "JavaFx"],
+      "tags": ["KdG", "Embedded"],
+      "team": null,
+      "url": "https://github.com/BauwenDR/Wordl-Arduino"
+    },
+    {
+      "name": "Restfull Monopoly",
+      "image": "Monopoly-Kdg.jpg",
+      "description": "A recreation of the classic Monopoly game using React, Three.Js and Tailwind as a front-end. The back-end is writting with Spring",
+      "technologies": ["React", "Three.Js", "Tailwind", "Spring"],
+      "tags": ["KdG", "Webdev"],
+      "team": [
+        "Anton Goossens",
+        "Niels Warrens",
+        "Victor De Regter",
+        "Yarno Van De Weyer"
+      ],
+      "url": null
+    },
+    {
+        "name": "Flock-Off!",
+        "image": "Flock-Off.png",
+        "description": "A team of strawmen have come alive in order to try and save a sick farmers village. The game has two stages: plant new crops and defend your crops.",
+        "technologies": [],
+        "tags": ["Howest", "GameJam"],
+        "team": [
+            "Jesse Peeters",
+            "Loïc Delaey",
+            "Mats Roelandt",
+            "Pepijn Vanhumbeeck",
+            "Siebe Boogaerts"
+        ],
+        "url": "https://matseke123.itch.io/untitled-strawman-game"
+    },
+    {
+      "name": "OSTA",
+      "image": "OSTA.png",
+      "description": "Open Source Travel Application; A mobile app collating points of interest from multiple sources on the web. These points can be used to create sightseeing trips through a city or area. This was created as our internship project at KdG.",
+      "techonologies": ["Ionic", "PythonJs (interop)"],
+      "tags": ["KdG", "Webdev"],
+      "team": ["Victor De Regter"],
+      "url": "https://osta.bauwendr.com"
+    },
+    {
+      "name": "Website GBZ",
+      "image": "GBZ.png",
+      "description": "GBZ (Groot Beverse Zwemclub) is our local swimming club for which I designed and now operate their website.",
+      "techonologies": ["Bootstrap", "MariaDB"],
+      "tags": ["Free Time", "Webdev"],
+      "team": null,
+      "url": "https://www.gbz.be"
+    },
+    {
+      "name": "Support sites",
+      "image": "Extra.png",
+      "description": "I have created a handfull of school or site actavities. This includes a site for testing our knowledge on art history and a site for managing an escape room for an introduction event at KdG",
+      "techonologies": ["Bootsrap", "React"],
+      "tags": ["Free Time", "Webdev"],
+      "team": null,
+      "url": null
+    }
+  ]
+}
