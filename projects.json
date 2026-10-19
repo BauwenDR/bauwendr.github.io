@@ -7,7 +7,8 @@
       "technologies": ["Raspberry PI", "OpenCV", "c++", "React Native"],
       "tags": ["KdG", "Embedded"],
       "team": ["Jonas Van der Reysen", "Victor De Regter"],
-      "url": null
+      "url": "https://medium.com/@jonas.vdr/piguard-a-smart-doorbell-solution-04fd637f09a6",
+      "details": "piguard"
     },
     {
       "name": "Pvp NES Snake",
@@ -16,7 +17,8 @@
       "techologies": ["6502 assembly", "NES"],
       "tags": ["Howest", "Embedded"],
       "team": ["Mattias Simonts", "Teun De Moor"],
-      "url": "https://github.com/BauwenDR/RetroProgramming"
+      "url": "https://github.com/BauwenDR/RetroProgramming",
+      "details": "nes-snake"
     },
     {
       "name": "Arduino wordl",
@@ -25,7 +27,8 @@
       "technologies": ["Embedded C", "JavaFx"],
       "tags": ["KdG", "Embedded"],
       "team": null,
-      "url": "https://github.com/BauwenDR/Wordl-Arduino"
+      "url": "https://github.com/BauwenDR/Wordl-Arduino",
+      "details": null
     },
     {
       "name": "Restfull Monopoly",
@@ -39,7 +42,8 @@
         "Victor De Regter",
         "Yarno Van De Weyer"
       ],
-      "url": null
+      "url": null,
+      "details": null
     },
     {
         "name": "Flock-Off!",
@@ -54,7 +58,8 @@
             "Pepijn Vanhumbeeck",
             "Siebe Boogaerts"
         ],
-        "url": "https://matseke123.itch.io/untitled-strawman-game"
+        "url": "https://matseke123.itch.io/untitled-strawman-game",
+        "details": null
     },
     {
       "name": "OSTA",
@@ -63,7 +68,8 @@
       "techonologies": ["Ionic", "PythonJs (interop)"],
       "tags": ["KdG", "Webdev"],
       "team": ["Victor De Regter"],
-      "url": "https://osta.bauwendr.com"
+      "url": "https://osta.bauwendr.com",
+      "details": null
     },
     {
       "name": "Website GBZ",
@@ -72,7 +78,8 @@
       "techonologies": ["Bootstrap", "MariaDB"],
       "tags": ["Free Time", "Webdev"],
       "team": null,
-      "url": "https://www.gbz.be"
+      "url": "https://www.gbz.be",
+      "details": null
     },
     {
       "name": "Support sites",
@@ -81,7 +88,8 @@
       "techonologies": ["Bootsrap", "React"],
       "tags": ["Free Time", "Webdev"],
       "team": null,
-      "url": null
+      "url": null,
+      "details": null
     }
   ]
 }

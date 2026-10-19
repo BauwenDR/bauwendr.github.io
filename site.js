@@ -12,7 +12,7 @@ async function loadData() {
 
     const cardData = `
             <div class="col-lg-6 col-xxl-4 mb-5">
-                <div class="card bg-light border-1 h-100">
+                <div class="card bg-light border-1 h-100 d-flex flex-column">
                     ${project.url !== null
                         ? `
                             <a
@@ -29,22 +29,29 @@ async function loadData() {
                     <div class="ratio-16x9 overflow-hidden">
                         <img class="card-img-top forced-16x9" src="images/${project.image}" alt="${project.name}'s image">
                     </div>
-                    <div class="card-body px-2 px-lg-3">
+                    <div class="card-body px-2 px-lg-3 d-flex flex-column flex-grow-1">
                         <h2 class="fs-4 fw-bold">${project.name}</h2>
-                        <p class="mb-0">${project.description}</p>
+                        <p class="${project.team === null ? "mb-3" : "mb-0"}">${project.description}</p>
 
                         ${project.team !== null ? `
                                 <h4 class="mt-2">Team members</h4>
                                 <p>${project.team.join(', ')}</p>
                         ` : ``}
+
+                        ${project.details !== null
+                            ?  `<a class="btn btn-primary mt-auto" href="/projects/${project.details}.html">
+                                    Details
+                                </a>`
+                            : ""
+                        }
                     </div>
 
-                        <div class="card-footer">
+                    <div class="card-footer">
                         ${project.tags.map((tag) => {
                             console.log(tag)
                             return `<span class="badge rounded-pill text-bg-info">${tag}</span>`
                         }).join(' ')}
-                        </div>
+                    </div>
                 </div>
             </div>
         `;
