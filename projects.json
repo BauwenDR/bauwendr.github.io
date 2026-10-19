@@ -22,28 +22,13 @@
     },
     {
       "name": "Arduino Wordl",
-      "image": "Aduino-World.png",
+      "image": "Aduino-World.jpg",
       "description": "A simple game of Wordl (only containing 4 letters due to hardware limitations) playable on both the Arduino and a JavaFx app at the same time",
       "technologies": ["Embedded C", "JavaFx"],
       "tags": ["KdG", "Embedded"],
       "team": null,
       "url": "https://github.com/BauwenDR/Wordl-Arduino",
-      "details": null
-    },
-    {
-      "name": "Restfull Monopoly",
-      "image": "Monopoly-Kdg.jpg",
-      "description": "A recreation of the classic Monopoly game using React, Three.Js and Tailwind as a front-end. The back-end is writting with Spring",
-      "technologies": ["React", "Three.Js", "Tailwind", "Spring"],
-      "tags": ["KdG", "Webdev"],
-      "team": [
-        "Anton Goossens",
-        "Niels Warrens",
-        "Victor De Regter",
-        "Yarno Van De Weyer"
-      ],
-      "url": null,
-      "details": null
+      "details": "arduino-wordl"
     },
     {
         "name": "Flock-Off!",
@@ -60,6 +45,21 @@
         ],
         "url": "https://matseke123.itch.io/untitled-strawman-game",
         "details": null
+    },
+    {
+      "name": "Restfull Monopoly",
+      "image": "Monopoly-Kdg.jpg",
+      "description": "A recreation of the classic Monopoly game using React, Three.Js and Tailwind as a front-end. The back-end is writting with Spring",
+      "technologies": ["React", "Three.Js", "Tailwind", "Spring"],
+      "tags": ["KdG", "Webdev"],
+      "team": [
+        "Anton Goossens",
+        "Niels Warrens",
+        "Victor De Regter",
+        "Yarno Van De Weyer"
+      ],
+      "url": null,
+      "details": null
     },
     {
       "name": "OSTA",

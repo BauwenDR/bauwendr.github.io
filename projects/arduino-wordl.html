@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="/site.css" rel="stylesheet" />
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css " rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/js/all.min.js" integrity="sha512-2+f4MxT8KwN4tUzw6/hv9kxKiix603S9kmBcix+0y0dBhd6zdaPOV1Thf1DM886pFZG+cAtmshBi8UBpo6m3JA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-lg-5">
+                <div>
+                    <button class="btn btn-outline-secondary me-2" onclick="history.back()"><</button>
+                    <a class="navbar-brand align-middle" href="/#!">NES Snake - Bauwen De Ron</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            </div>
+        </nav>
+
+        <div class="container pb-4">
+            <div class="fw-light mt-1">
+                <a href="/">Home</a> / <a href="/#projects">Projects</a> / Arduino Wordl
+            </div>
+
+            <h1 class="mt-3">Arduino Wordl</h1>
+            <img class="img-fluid shadow mb-2 bg-body rounded" src="/images/Aduino-World.jpg"/>
+
+            <h2>Description</h2>
+            <p>
+                At KdG we had a 6 week embedded devices course. The exam assignment was to create a game for the Arduino. I went ahead and did a little extra adding a functioning UI written in Java + JavaFX that can communicate between the Arduino and a PC.<br/>
+                One of the limitations for this course was that we were not allowed to use "Arduino.h", so we had to create our own IO and utilities libraries.
+            </p>
+            <p>
+                In order to accomplish this I used a Java library to interact with a serial port (the USB cable to an Arduino is running in Serial Mode). The communication between the two devices uses a very simple, but functional communication protocol that I designed myself.<br/>
+            </p>
+
+            <h3>Communication Arduino to PC</h3>
+            <div class="mb-3">
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/1237292551?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Arduino Wordl Arduino to PC">
+                    </iframe>
+                </div>
+                <scrip src="https://player.vimeo.com/api/player.js"></scrip>
+            </div>
+
+            <h3>Communication PC to Arduino</h3>
+            <div class="mb-3">
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/1237292550?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Wordl Arduino Pc to Arduino">
+                    </iframe>
+                </div>
+                <scrip src="https://player.vimeo.com/api/player.js"></scrip>
+            </div>
+
+            <h3>Memory limitations</h3>
+            <p>
+                An Arduino is also a device with little storage (compared to a modern PC). The game can also run in text only mode where the Arduino will relay information via the debug terminal in the IDE.<br/>
+                Because this is a lot of text and C stores strings in RAM by default, I had to implement a way for strings to be fetched from the much larger ROM instead.
+            </p>
+
+            <h2>Technologies</h2>
+            <ul>
+                <li>VSCode + PlatformIO</li>
+                <li>JavaFX</li>
+                <li>CSS styling for JavaFX</li>
+            </ul>
+
+            <h2>Explore the project</h2>
+            <p>
+                The source code can be found at: <a href="https://github.com/BauwenDR/Wordl-Arduino">https://github.com/BauwenDR/Wordl-Arduino</a>
+            </p>
+        </div>
+    </body>
+</html>
