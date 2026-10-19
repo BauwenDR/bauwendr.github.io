@@ -21,7 +21,7 @@
       "details": "nes-snake"
     },
     {
-      "name": "Arduino wordl",
+      "name": "Arduino Wordl",
       "image": "Aduino-World.png",
       "description": "A simple game of Wordl (only containing 4 letters due to hardware limitations) playable on both the Arduino and a JavaFx app at the same time",
       "technologies": ["Embedded C", "JavaFx"],
